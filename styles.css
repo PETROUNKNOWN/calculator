@@ -1,6 +1,11 @@
+* {
+  font-family: saira;
+}
+
 body {
   background-color: darkblue;
   color: black;
+  
 }
 
 #calc {
@@ -42,6 +47,7 @@ body {
   font-size: 3rem;
   border: transparent;
   border-radius: 15px ;
+  transition: .4s;
 }
 
 #nums:hover {
