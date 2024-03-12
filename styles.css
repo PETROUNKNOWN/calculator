@@ -41,18 +41,49 @@ body {
   row-gap: 2px;
 }
 
-#nums {
+
+#numminuss,
+#numpluss,
+#numequalss,
+#num1s,
+#num2s,
+#num3s,
+#num4s,
+#num5s,
+#num6s,
+#num7s,
+#num8s,
+#num9s,
+#numdivides,
+#num0s,
+#nummultipys {
   width: 166px;
   height: 100px;
   font-size: 3rem;
   border: transparent;
-  border-radius: 15px ;
+  border-radius: 10px ;
   transition: .4s;
+  margin: 1px;
 }
 
-#nums:hover {
+#numminuss:hover,
+#numpluss:hover,
+#numequalss:hover,
+#num1s:hover,
+#num2s:hover,
+#num3s:hover,
+#num4s:hover,
+#num5s:hover,
+#num6s:hover,
+#num7s:hover,
+#num8s:hover,
+#num9s:hover,
+#numdivides:hover,
+#num0s:hover,
+#nummultipys:hover {
   font-size: 3.5rem;
   background-color: black;
   color: wheat;
   border: 1px red solid;
 }
+
